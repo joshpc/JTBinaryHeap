@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F75285961B1D2F5200A6AD9D"
-               BuildableName = "libJTBinaryHeap.a"
+               BlueprintIdentifier = "F75285C31B1D4D0700A6AD9D"
+               BuildableName = "JTBinaryHeap.framework"
                BlueprintName = "JTBinaryHeap"
                ReferencedContainer = "container:JTBinaryHeap.xcodeproj">
             </BuildableReference>
@@ -28,7 +28,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F75285A11B1D2F5200A6AD9D"
+               BlueprintIdentifier = "F75285CE1B1D4D0700A6AD9D"
                BuildableName = "JTBinaryHeapTests.xctest"
                BlueprintName = "JTBinaryHeapTests"
                ReferencedContainer = "container:JTBinaryHeap.xcodeproj">
@@ -46,7 +46,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F75285A11B1D2F5200A6AD9D"
+               BlueprintIdentifier = "F75285CE1B1D4D0700A6AD9D"
                BuildableName = "JTBinaryHeapTests.xctest"
                BlueprintName = "JTBinaryHeapTests"
                ReferencedContainer = "container:JTBinaryHeap.xcodeproj">
@@ -56,8 +56,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F75285961B1D2F5200A6AD9D"
-            BuildableName = "libJTBinaryHeap.a"
+            BlueprintIdentifier = "F75285C31B1D4D0700A6AD9D"
+            BuildableName = "JTBinaryHeap.framework"
             BlueprintName = "JTBinaryHeap"
             ReferencedContainer = "container:JTBinaryHeap.xcodeproj">
          </BuildableReference>
@@ -75,8 +75,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F75285961B1D2F5200A6AD9D"
-            BuildableName = "libJTBinaryHeap.a"
+            BlueprintIdentifier = "F75285C31B1D4D0700A6AD9D"
+            BuildableName = "JTBinaryHeap.framework"
             BlueprintName = "JTBinaryHeap"
             ReferencedContainer = "container:JTBinaryHeap.xcodeproj">
          </BuildableReference>
@@ -93,8 +93,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "F75285961B1D2F5200A6AD9D"
-            BuildableName = "libJTBinaryHeap.a"
+            BlueprintIdentifier = "F75285C31B1D4D0700A6AD9D"
+            BuildableName = "JTBinaryHeap.framework"
             BlueprintName = "JTBinaryHeap"
             ReferencedContainer = "container:JTBinaryHeap.xcodeproj">
          </BuildableReference>

@@ -7,132 +7,135 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F752859B1B1D2F5200A6AD9D /* JTBinaryHeap.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = F752859A1B1D2F5200A6AD9D /* JTBinaryHeap.h */; };
-		F752859D1B1D2F5200A6AD9D /* JTBinaryHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = F752859C1B1D2F5200A6AD9D /* JTBinaryHeap.m */; };
-		F75285A31B1D2F5200A6AD9D /* libJTBinaryHeap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F75285971B1D2F5200A6AD9D /* libJTBinaryHeap.a */; };
-		F75285B21B1D302300A6AD9D /* JTBinaryHeapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75285B11B1D302300A6AD9D /* JTBinaryHeapTests.m */; };
-		F75285B81B1D3BA200A6AD9D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F75285B71B1D3BA200A6AD9D /* README.md */; };
+		F75285CA1B1D4D0700A6AD9D /* JTBinaryHeap.h in Headers */ = {isa = PBXBuildFile; fileRef = F75285C91B1D4D0700A6AD9D /* JTBinaryHeap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F75285D01B1D4D0700A6AD9D /* JTBinaryHeap.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F75285C41B1D4D0700A6AD9D /* JTBinaryHeap.framework */; };
+		F75285D71B1D4D0700A6AD9D /* JTBinaryHeapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75285D61B1D4D0700A6AD9D /* JTBinaryHeapTests.m */; };
+		F75285E11B1D4D5700A6AD9D /* JTBinaryHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = F75285E01B1D4D5700A6AD9D /* JTBinaryHeap.m */; };
+		F75285E51B1D4D6400A6AD9D /* JTBinaryHeap.podspec in Resources */ = {isa = PBXBuildFile; fileRef = F75285E21B1D4D6400A6AD9D /* JTBinaryHeap.podspec */; };
+		F75285E61B1D4D6400A6AD9D /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = F75285E31B1D4D6400A6AD9D /* LICENSE */; };
+		F75285E71B1D4D6400A6AD9D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F75285E41B1D4D6400A6AD9D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		F75285A41B1D2F5200A6AD9D /* PBXContainerItemProxy */ = {
+		F75285D11B1D4D0700A6AD9D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = F752858F1B1D2F5200A6AD9D /* Project object */;
+			containerPortal = F75285BB1B1D4D0700A6AD9D /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F75285961B1D2F5200A6AD9D;
+			remoteGlobalIDString = F75285C31B1D4D0700A6AD9D;
 			remoteInfo = JTBinaryHeap;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		F75285951B1D2F5200A6AD9D /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/$(PRODUCT_NAME)";
-			dstSubfolderSpec = 16;
-			files = (
-				F752859B1B1D2F5200A6AD9D /* JTBinaryHeap.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
-		F75285971B1D2F5200A6AD9D /* libJTBinaryHeap.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJTBinaryHeap.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		F752859A1B1D2F5200A6AD9D /* JTBinaryHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTBinaryHeap.h; sourceTree = "<group>"; };
-		F752859C1B1D2F5200A6AD9D /* JTBinaryHeap.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTBinaryHeap.m; sourceTree = "<group>"; };
-		F75285A21B1D2F5200A6AD9D /* JTBinaryHeapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTBinaryHeapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F75285A81B1D2F5200A6AD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F75285B11B1D302300A6AD9D /* JTBinaryHeapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBinaryHeapTests.m; sourceTree = "<group>"; };
-		F75285B51B1D3BA200A6AD9D /* JTBinaryHeap.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JTBinaryHeap.podspec; sourceTree = SOURCE_ROOT; };
-		F75285B61B1D3BA200A6AD9D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
-		F75285B71B1D3BA200A6AD9D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		F75285C41B1D4D0700A6AD9D /* JTBinaryHeap.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JTBinaryHeap.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75285C81B1D4D0700A6AD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75285C91B1D4D0700A6AD9D /* JTBinaryHeap.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JTBinaryHeap.h; sourceTree = "<group>"; };
+		F75285CF1B1D4D0700A6AD9D /* JTBinaryHeapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTBinaryHeapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F75285D51B1D4D0700A6AD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F75285D61B1D4D0700A6AD9D /* JTBinaryHeapTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JTBinaryHeapTests.m; sourceTree = "<group>"; };
+		F75285E01B1D4D5700A6AD9D /* JTBinaryHeap.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBinaryHeap.m; sourceTree = "<group>"; };
+		F75285E21B1D4D6400A6AD9D /* JTBinaryHeap.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JTBinaryHeap.podspec; sourceTree = SOURCE_ROOT; };
+		F75285E31B1D4D6400A6AD9D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		F75285E41B1D4D6400A6AD9D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F75285941B1D2F5200A6AD9D /* Frameworks */ = {
+		F75285C01B1D4D0700A6AD9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F752859F1B1D2F5200A6AD9D /* Frameworks */ = {
+		F75285CC1B1D4D0700A6AD9D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75285A31B1D2F5200A6AD9D /* libJTBinaryHeap.a in Frameworks */,
+				F75285D01B1D4D0700A6AD9D /* JTBinaryHeap.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F752858E1B1D2F5200A6AD9D = {
+		F75285BA1B1D4D0700A6AD9D = {
 			isa = PBXGroup;
 			children = (
-				F75285991B1D2F5200A6AD9D /* JTBinaryHeap */,
-				F75285A61B1D2F5200A6AD9D /* JTBinaryHeapTests */,
-				F75285981B1D2F5200A6AD9D /* Products */,
+				F75285C61B1D4D0700A6AD9D /* JTBinaryHeap */,
+				F75285D31B1D4D0700A6AD9D /* JTBinaryHeapTests */,
+				F75285C51B1D4D0700A6AD9D /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		F75285981B1D2F5200A6AD9D /* Products */ = {
+		F75285C51B1D4D0700A6AD9D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F75285971B1D2F5200A6AD9D /* libJTBinaryHeap.a */,
-				F75285A21B1D2F5200A6AD9D /* JTBinaryHeapTests.xctest */,
+				F75285C41B1D4D0700A6AD9D /* JTBinaryHeap.framework */,
+				F75285CF1B1D4D0700A6AD9D /* JTBinaryHeapTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F75285991B1D2F5200A6AD9D /* JTBinaryHeap */ = {
+		F75285C61B1D4D0700A6AD9D /* JTBinaryHeap */ = {
 			isa = PBXGroup;
 			children = (
-				F75285B91B1D3BA400A6AD9D /* Supporting Files */,
-				F752859A1B1D2F5200A6AD9D /* JTBinaryHeap.h */,
-				F752859C1B1D2F5200A6AD9D /* JTBinaryHeap.m */,
+				F75285C91B1D4D0700A6AD9D /* JTBinaryHeap.h */,
+				F75285E01B1D4D5700A6AD9D /* JTBinaryHeap.m */,
+				F75285C71B1D4D0700A6AD9D /* Supporting Files */,
 			);
 			path = JTBinaryHeap;
 			sourceTree = "<group>";
 		};
-		F75285A61B1D2F5200A6AD9D /* JTBinaryHeapTests */ = {
+		F75285C71B1D4D0700A6AD9D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				F75285A71B1D2F5200A6AD9D /* Supporting Files */,
-				F75285B11B1D302300A6AD9D /* JTBinaryHeapTests.m */,
-			);
-			path = JTBinaryHeapTests;
-			sourceTree = "<group>";
-		};
-		F75285A71B1D2F5200A6AD9D /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				F75285A81B1D2F5200A6AD9D /* Info.plist */,
+				F75285E21B1D4D6400A6AD9D /* JTBinaryHeap.podspec */,
+				F75285E31B1D4D6400A6AD9D /* LICENSE */,
+				F75285E41B1D4D6400A6AD9D /* README.md */,
+				F75285C81B1D4D0700A6AD9D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		F75285B91B1D3BA400A6AD9D /* Supporting Files */ = {
+		F75285D31B1D4D0700A6AD9D /* JTBinaryHeapTests */ = {
 			isa = PBXGroup;
 			children = (
-				F75285B51B1D3BA200A6AD9D /* JTBinaryHeap.podspec */,
-				F75285B61B1D3BA200A6AD9D /* LICENSE */,
-				F75285B71B1D3BA200A6AD9D /* README.md */,
+				F75285D61B1D4D0700A6AD9D /* JTBinaryHeapTests.m */,
+				F75285D41B1D4D0700A6AD9D /* Supporting Files */,
+			);
+			path = JTBinaryHeapTests;
+			sourceTree = "<group>";
+		};
+		F75285D41B1D4D0700A6AD9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F75285D51B1D4D0700A6AD9D /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		F75285C11B1D4D0700A6AD9D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75285CA1B1D4D0700A6AD9D /* JTBinaryHeap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		F75285961B1D2F5200A6AD9D /* JTBinaryHeap */ = {
+		F75285C31B1D4D0700A6AD9D /* JTBinaryHeap */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F75285AB1B1D2F5200A6AD9D /* Build configuration list for PBXNativeTarget "JTBinaryHeap" */;
+			buildConfigurationList = F75285DA1B1D4D0700A6AD9D /* Build configuration list for PBXNativeTarget "JTBinaryHeap" */;
 			buildPhases = (
-				F75285931B1D2F5200A6AD9D /* Sources */,
-				F75285941B1D2F5200A6AD9D /* Frameworks */,
-				F75285951B1D2F5200A6AD9D /* CopyFiles */,
+				F75285BF1B1D4D0700A6AD9D /* Sources */,
+				F75285C01B1D4D0700A6AD9D /* Frameworks */,
+				F75285C11B1D4D0700A6AD9D /* Headers */,
+				F75285C21B1D4D0700A6AD9D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -140,64 +143,73 @@
 			);
 			name = JTBinaryHeap;
 			productName = JTBinaryHeap;
-			productReference = F75285971B1D2F5200A6AD9D /* libJTBinaryHeap.a */;
-			productType = "com.apple.product-type.library.static";
+			productReference = F75285C41B1D4D0700A6AD9D /* JTBinaryHeap.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		F75285A11B1D2F5200A6AD9D /* JTBinaryHeapTests */ = {
+		F75285CE1B1D4D0700A6AD9D /* JTBinaryHeapTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F75285AE1B1D2F5200A6AD9D /* Build configuration list for PBXNativeTarget "JTBinaryHeapTests" */;
+			buildConfigurationList = F75285DD1B1D4D0700A6AD9D /* Build configuration list for PBXNativeTarget "JTBinaryHeapTests" */;
 			buildPhases = (
-				F752859E1B1D2F5200A6AD9D /* Sources */,
-				F752859F1B1D2F5200A6AD9D /* Frameworks */,
-				F75285A01B1D2F5200A6AD9D /* Resources */,
+				F75285CB1B1D4D0700A6AD9D /* Sources */,
+				F75285CC1B1D4D0700A6AD9D /* Frameworks */,
+				F75285CD1B1D4D0700A6AD9D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				F75285A51B1D2F5200A6AD9D /* PBXTargetDependency */,
+				F75285D21B1D4D0700A6AD9D /* PBXTargetDependency */,
 			);
 			name = JTBinaryHeapTests;
 			productName = JTBinaryHeapTests;
-			productReference = F75285A21B1D2F5200A6AD9D /* JTBinaryHeapTests.xctest */;
+			productReference = F75285CF1B1D4D0700A6AD9D /* JTBinaryHeapTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F752858F1B1D2F5200A6AD9D /* Project object */ = {
+		F75285BB1B1D4D0700A6AD9D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = "Joshua Tessier";
 				TargetAttributes = {
-					F75285961B1D2F5200A6AD9D = {
+					F75285C31B1D4D0700A6AD9D = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
-					F75285A11B1D2F5200A6AD9D = {
+					F75285CE1B1D4D0700A6AD9D = {
 						CreatedOnToolsVersion = 6.3.2;
 					};
 				};
 			};
-			buildConfigurationList = F75285921B1D2F5200A6AD9D /* Build configuration list for PBXProject "JTBinaryHeap" */;
+			buildConfigurationList = F75285BE1B1D4D0700A6AD9D /* Build configuration list for PBXProject "JTBinaryHeap" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = F752858E1B1D2F5200A6AD9D;
-			productRefGroup = F75285981B1D2F5200A6AD9D /* Products */;
+			mainGroup = F75285BA1B1D4D0700A6AD9D;
+			productRefGroup = F75285C51B1D4D0700A6AD9D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F75285961B1D2F5200A6AD9D /* JTBinaryHeap */,
-				F75285A11B1D2F5200A6AD9D /* JTBinaryHeapTests */,
+				F75285C31B1D4D0700A6AD9D /* JTBinaryHeap */,
+				F75285CE1B1D4D0700A6AD9D /* JTBinaryHeapTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F75285A01B1D2F5200A6AD9D /* Resources */ = {
+		F75285C21B1D4D0700A6AD9D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75285E61B1D4D6400A6AD9D /* LICENSE in Resources */,
+				F75285E51B1D4D6400A6AD9D /* JTBinaryHeap.podspec in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F75285CD1B1D4D0700A6AD9D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -207,35 +219,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		F75285931B1D2F5200A6AD9D /* Sources */ = {
+		F75285BF1B1D4D0700A6AD9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75285B81B1D3BA200A6AD9D /* README.md in Sources */,
-				F752859D1B1D2F5200A6AD9D /* JTBinaryHeap.m in Sources */,
+				F75285E71B1D4D6400A6AD9D /* README.md in Sources */,
+				F75285E11B1D4D5700A6AD9D /* JTBinaryHeap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F752859E1B1D2F5200A6AD9D /* Sources */ = {
+		F75285CB1B1D4D0700A6AD9D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F75285B21B1D302300A6AD9D /* JTBinaryHeapTests.m in Sources */,
+				F75285D71B1D4D0700A6AD9D /* JTBinaryHeapTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		F75285A51B1D2F5200A6AD9D /* PBXTargetDependency */ = {
+		F75285D21B1D4D0700A6AD9D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F75285961B1D2F5200A6AD9D /* JTBinaryHeap */;
-			targetProxy = F75285A41B1D2F5200A6AD9D /* PBXContainerItemProxy */;
+			target = F75285C31B1D4D0700A6AD9D /* JTBinaryHeap */;
+			targetProxy = F75285D11B1D4D0700A6AD9D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		F75285A91B1D2F5200A6AD9D /* Debug */ = {
+		F75285D81B1D4D0700A6AD9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -252,7 +264,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -274,10 +288,13 @@
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		F75285AA1B1D2F5200A6AD9D /* Release */ = {
+		F75285D91B1D4D0700A6AD9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -294,7 +311,9 @@
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -309,32 +328,46 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		F75285AC1B1D2F5200A6AD9D /* Debug */ = {
+		F75285DB1B1D4D0700A6AD9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JTBinaryHeap/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		F75285AD1B1D2F5200A6AD9D /* Release */ = {
+		F75285DC1B1D4D0700A6AD9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				OTHER_LDFLAGS = "-ObjC";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = JTBinaryHeap/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		F75285AF1B1D2F5200A6AD9D /* Debug */ = {
+		F75285DE1B1D4D0700A6AD9D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -349,10 +382,9 @@
 			};
 			name = Debug;
 		};
-		F75285B01B1D2F5200A6AD9D /* Release */ = {
+		F75285DF1B1D4D0700A6AD9D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -366,32 +398,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F75285921B1D2F5200A6AD9D /* Build configuration list for PBXProject "JTBinaryHeap" */ = {
+		F75285BE1B1D4D0700A6AD9D /* Build configuration list for PBXProject "JTBinaryHeap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F75285A91B1D2F5200A6AD9D /* Debug */,
-				F75285AA1B1D2F5200A6AD9D /* Release */,
+				F75285D81B1D4D0700A6AD9D /* Debug */,
+				F75285D91B1D4D0700A6AD9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F75285AB1B1D2F5200A6AD9D /* Build configuration list for PBXNativeTarget "JTBinaryHeap" */ = {
+		F75285DA1B1D4D0700A6AD9D /* Build configuration list for PBXNativeTarget "JTBinaryHeap" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F75285AC1B1D2F5200A6AD9D /* Debug */,
-				F75285AD1B1D2F5200A6AD9D /* Release */,
+				F75285DB1B1D4D0700A6AD9D /* Debug */,
+				F75285DC1B1D4D0700A6AD9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		F75285AE1B1D2F5200A6AD9D /* Build configuration list for PBXNativeTarget "JTBinaryHeapTests" */ = {
+		F75285DD1B1D4D0700A6AD9D /* Build configuration list for PBXNativeTarget "JTBinaryHeapTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F75285AF1B1D2F5200A6AD9D /* Debug */,
-				F75285B01B1D2F5200A6AD9D /* Release */,
+				F75285DE1B1D4D0700A6AD9D /* Debug */,
+				F75285DF1B1D4D0700A6AD9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F752858F1B1D2F5200A6AD9D /* Project object */;
+	rootObject = F75285BB1B1D4D0700A6AD9D /* Project object */;
 }
