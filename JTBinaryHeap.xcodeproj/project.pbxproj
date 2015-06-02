@@ -11,6 +11,7 @@
 		F752859D1B1D2F5200A6AD9D /* JTBinaryHeap.m in Sources */ = {isa = PBXBuildFile; fileRef = F752859C1B1D2F5200A6AD9D /* JTBinaryHeap.m */; };
 		F75285A31B1D2F5200A6AD9D /* libJTBinaryHeap.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F75285971B1D2F5200A6AD9D /* libJTBinaryHeap.a */; };
 		F75285B21B1D302300A6AD9D /* JTBinaryHeapTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F75285B11B1D302300A6AD9D /* JTBinaryHeapTests.m */; };
+		F75285B81B1D3BA200A6AD9D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = F75285B71B1D3BA200A6AD9D /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,9 @@
 		F75285A21B1D2F5200A6AD9D /* JTBinaryHeapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JTBinaryHeapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F75285A81B1D2F5200A6AD9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F75285B11B1D302300A6AD9D /* JTBinaryHeapTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JTBinaryHeapTests.m; sourceTree = "<group>"; };
+		F75285B51B1D3BA200A6AD9D /* JTBinaryHeap.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = JTBinaryHeap.podspec; sourceTree = SOURCE_ROOT; };
+		F75285B61B1D3BA200A6AD9D /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		F75285B71B1D3BA200A6AD9D /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +89,7 @@
 		F75285991B1D2F5200A6AD9D /* JTBinaryHeap */ = {
 			isa = PBXGroup;
 			children = (
+				F75285B91B1D3BA400A6AD9D /* Supporting Files */,
 				F752859A1B1D2F5200A6AD9D /* JTBinaryHeap.h */,
 				F752859C1B1D2F5200A6AD9D /* JTBinaryHeap.m */,
 			);
@@ -104,6 +109,16 @@
 			isa = PBXGroup;
 			children = (
 				F75285A81B1D2F5200A6AD9D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F75285B91B1D3BA400A6AD9D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F75285B51B1D3BA200A6AD9D /* JTBinaryHeap.podspec */,
+				F75285B61B1D3BA200A6AD9D /* LICENSE */,
+				F75285B71B1D3BA200A6AD9D /* README.md */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -196,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F75285B81B1D3BA200A6AD9D /* README.md in Sources */,
 				F752859D1B1D2F5200A6AD9D /* JTBinaryHeap.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
