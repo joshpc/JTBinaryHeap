@@ -5,7 +5,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "JTBinaryHeap"
-  s.version          = "1.0.1"
+  s.version          = "1.0.2"
   s.summary          = "A simple CFBinaryHeap wrapper in Objective-C for simple consumption in Obj-C / Swift Projects."
   s.homepage         = "https://github.com/joshpc/JTBinaryHeap"
   s.license          = 'MIT'
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.requires_arc     = true
 
   s.source_files     = 'JTBinaryHeap/**/*'
-
   s.public_header_files = 'JTBinaryHeap/**/*.h'
+
   s.frameworks = 'Foundation'
 end
